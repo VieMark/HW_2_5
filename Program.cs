@@ -14,6 +14,7 @@ class Program
         Console.WriteLine("Введите второе число :");
         int b = Convert.ToInt32(Console.ReadLine());
         int sum = a+b;
+        Console.WriteLine("Сумма чисел :");
         Console.WriteLine(sum);
         // 2 
         Console.WriteLine("Игра угадай число");
@@ -33,6 +34,24 @@ class Program
                 Console.WriteLine("Попробуйте уменьшить число !");
             }
         }
+
+        // ДЗ 4
+        // 1
+        int[] M1 = [ 1, 88, 3, 99 ];
+        int[] M2 = [ 2, 5, 11, 123, 77 ];
+        int[] massiv = M1.Concat(M2).ToArray();
+        foreach(int i in massiv){
+            Console.WriteLine(i);
+        }
+        
+        //2
+        // Честно посмотрела в интернете, но всё равно не поняла, как это сделать. 
+
+        // ДЗ 5
+        int m = 0 ;
+        int[] list = [ 1, 88, 3, 99, 2, 2, 2, 3, 44, 5, 3, 5, 100, 2, 33, 55, -1, -123 ];
+        
+            
 
     }
 }
